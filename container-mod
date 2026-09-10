@@ -1023,7 +1023,7 @@ generate_new_modulefile() {
         bind_tcl_block="source \"${esc_bind_cfg}\""
     elif [[ -n "${BIND_PATH:-}" ]]; then
         bind_lua_block="prepend_path{\"${esc_bind_env_var}\",\"${esc_bind}\",delim=\",\"}"
-        bind_tcl_block="prepend-path --delim=\",\" ${esc_bind_env_var} \"${esc_bind}\""
+        bind_tcl_block="prepend-path --delim=, ${esc_bind_env_var} \"${esc_bind}\""
     fi
 
     # Render the runtime-dependency block only when there is a real
