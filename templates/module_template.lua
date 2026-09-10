@@ -46,6 +46,8 @@ conflict(myModuleName())
 
 local modroot="${EXECUTABLE_DIR}/${APP}/" .. "${VERSION}"
 prepend_path("PATH", modroot.."/bin", ":")
+
+-- Optional bind path (set BIND_PATH or BIND_CONFIG_FILE in your profile to enable)
 ${BIND_LUA}
 -- Container runtime dependency (omitted on sites where the runtime
 -- is a system binary with no corresponding Lmod entry).

@@ -1,0 +1,12 @@
+MOD_EXISTING_DIR_DEF="/usr/local/usrapps/brc/brc_modules/modules"
+PUBLIC_IMAGEDIR="/usr/local/usrapps/brc/brc_modules/images"
+PUBLIC_EXECUTABLE_DIR="/usr/local/usrapps/brc/brc_modules/tools"
+IMG_OUTDIR=$PUBLIC_IMAGEDIR
+MOD_OUTDIR="/usr/local/usrapps/brc/brc_modules/modules"
+EXEC_OUTDIR=$PUBLIC_EXECUTABLE_DIR
+
+# Tcl/Lua config sourced by every generated modulefile at load time to
+# auto-bind common Hazel directories (/rs1, /share/$GROUP, /rsstu) into the
+# container runtime. Keeps bind paths centrally maintained in one file
+# instead of baked into each modulefile - see BIND_CONFIG_FILE in container-mod.
+BIND_CONFIG_FILE="/usr/local/usrapps/brc/brc_modules/modules.config"

@@ -1006,9 +1006,22 @@ generate_new_modulefile() {
 
     # Render the bind block conditionally so users without a configured
     # BIND_PATH do not get a hardcoded site-specific path baked into modules.
+    #
+    # BIND_CONFIG_FILE takes precedence over BIND_PATH: instead of baking a
+    # literal path list into the modulefile at generation time, it points at
+    # a site-maintained, modulefile-sourceable config (Tcl for module files,
+    # a Lua chunk for Lua module files) that gets `source`d/`dofile`d at
+    # *load* time. That lets a site change its bind paths in one place
+    # without regenerating every module. BIND_PATH stays as the literal
+    # bake-in for sites (e.g. the default Tufts profiles) that just want a
+    # fixed path with no external file dependency.
     local bind_lua_block=""
     local bind_tcl_block=""
-    if [[ -n "${BIND_PATH:-}" ]]; then
+    if [[ -n "${BIND_CONFIG_FILE:-}" ]]; then
+        local esc_bind_cfg; esc_bind_cfg=$(sedi_escape "$BIND_CONFIG_FILE")
+        bind_lua_block="dofile(\"${esc_bind_cfg}\")"
+        bind_tcl_block="source \"${esc_bind_cfg}\""
+    elif [[ -n "${BIND_PATH:-}" ]]; then
         bind_lua_block="prepend_path{\"${esc_bind_env_var}\",\"${esc_bind}\",delim=\",\"}"
         bind_tcl_block="prepend-path --delim=\",\" ${esc_bind_env_var} \"${esc_bind}\""
     fi

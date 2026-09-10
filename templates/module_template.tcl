@@ -55,7 +55,7 @@ conflict "${APP}"
 #-- Add the application's bin directory to the PATH
 prepend-path    PATH    "${modroot}/bin"
 
-#-- Optional bind path (set BIND_PATH in your profile to enable)
+#-- Optional bind path (set BIND_PATH or BIND_CONFIG_FILE in your profile to enable)
 ${BIND_TCL}
 
 #-- Container runtime dependency (omitted on sites where the runtime
