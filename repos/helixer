@@ -1,0 +1,3 @@
+Description: Helixer is a tool for structural genome annotation. It utilizes Deep Neural Networks and a Hidden Markov Model to directly provide primary gene models in a gff3 file.
+Home Page: https://github.com/usadellab/Helixer
+Programs: fetch_helixer_models.py,Helixer.py,fasta2h5.py,HybridModel.py,helixer_post_bin

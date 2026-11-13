@@ -1,0 +1,4 @@
+Description: PORTable CULLing of Invalid Splice junctions from pre-aligned RNA-seq data
+Home Page: https://github.com/EI-CoreBioinformatics/portcullis
+Programs: portcullis
+version("1.2.4", uri="docker://quay.io/biocontainers/portcullis:1.2.4--py310hfc0ef84_5")

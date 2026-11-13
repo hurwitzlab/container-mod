@@ -2,4 +2,5 @@ Description: Coverm is a configurable, easy to use and fast DNA read coverage an
 Home Page: https://github.com/wwood/CoverM
 Programs: coverm
 
+version("0.8.0", uri="docker://quay.io/biocontainers/coverm:0.8.0--h750ce8b_0")
 version("0.6.1", uri="docker://quay.io/biocontainers/coverm:0.6.1--h8b24846_3")

@@ -1,0 +1,4 @@
+Description: vConTACT3 — a viral genome clustering and taxonomic assignment tool.
+Home Page: https://vcontact3.readthedocs.io/en/latest/index.html
+Programs: vcontact3 
+version("3.1.6", uri="docker://quay.io/biocontainers/vcontact3:3.1.6--pyhdfd78af_1")

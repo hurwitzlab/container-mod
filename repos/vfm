@@ -1,0 +1,3 @@
+Description: identifies bacteriophages in metagenomic bins or contigs based on
+Home Page: https://github.com/liuql2019/VFM
+Programs: bin-VFM_predict

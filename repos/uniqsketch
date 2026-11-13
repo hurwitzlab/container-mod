@@ -1,0 +1,3 @@
+Description: UniqSketch performs sensitive and resource-efficient strain-level detection in metagenomes using unique k-mer sketches.
+Home Page: https://github.com/amazon-science/uniqsketch
+Programs: uniqsketch,querysketch,comparesketch

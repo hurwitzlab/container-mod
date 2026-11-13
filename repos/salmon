@@ -2,6 +2,7 @@ Description: Salmon is a tool for quantifying the expression of transcripts usin
 Home Page: https://combine-lab.github.io/salmon/
 Programs: salmon
 
+version("1.10.3", uri="docker://quay.io/biocontainers/salmon:1.10.3--h45fbf2d_5")
 version("1.10.1", uri="docker://quay.io/biocontainers/salmon:1.10.1--h7e5ed60_0")
 version("1.9.0", uri="docker://quay.io/biocontainers/salmon:1.9.0--h7e5ed60_0")
 version("1.8.0", uri="docker://quay.io/biocontainers/salmon:1.8.0--h7e5ed60_1")

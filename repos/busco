@@ -2,6 +2,7 @@ Description: BUSCO (Benchmarking sets of Universal Single-Copy Orthologs) provid
 Home Page: https://gitlab.com/ezlab/busco/
 Programs: busco,generate_plot.py
 
+version("6.1.0", uri="docker://quay.io/biocontainers/busco:6.1.0--pyhdfd78af_2")
 version("5.4.7", uri="docker://ezlabgva/busco:v5.4.7_cv1")
 version("5.4.5", uri="docker://ezlabgva/busco:v5.4.5_cv1")
 version("5.4.4", uri="docker://ezlabgva/busco:v5.4.4_cv1")

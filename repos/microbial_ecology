@@ -1,0 +1,3 @@
+Description: R 4.6.1 image (Bioconductor 3.23, package snapshot 2026-10-08): car, dplyr, ggplot2, ggpubr, lme4, readr, tidyr, tidyverse, vegan
+Home Page: https://github.com/hurwitzlab/custom_containeR
+Programs: R,Rscript,microbial_ecology

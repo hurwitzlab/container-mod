@@ -1,0 +1,5 @@
+Description: a deep-learning toolkit for phage/virus contig analysis (identification via PhaMer, taxonomy, lifestyle, and host prediction) accessible through a single CLI.
+Home Page: https://github.com/KennthShang/PhaBOX
+Programs: phabox2
+
+version("2.1.13", uri="docker://quay.io/biocontainers/phabox:2.1.13--pyhdfd78af_0")

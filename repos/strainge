@@ -1,0 +1,3 @@
+Description: StrainGE (Strain Genome Explorer) tracks and characterizes low-abundance bacterial strains in metagenomes (StrainGST, StrainGR).
+Home Page: https://github.com/broadinstitute/strainge
+Programs: strainge,straingst,straingr,kmercoverage,kmerseq,kmersimilarity,kmerspectrum,kmertree,pankmer,refseq-download,refseq-extract,treepath

@@ -1,0 +1,4 @@
+Description: The tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures.
+Home Page: https://tidyverse.org/
+Programs: R,Rscript,rserver
+version("2.0.0", uri="docker://rocker/tidyverse:latest")

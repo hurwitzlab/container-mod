@@ -1,0 +1,3 @@
+Description: Ultrafast whole-genome aggregate amino acid identity (AAI) estimator.
+Home Page: https://github.com/KGerhardt/fastaaiv2
+Programs: fastaai_main

@@ -1,0 +1,4 @@
+Description: A community effort to collect a curated set of analysis pipelines built using Nextflow.
+Home Page: https://nf-co.re/
+Programs: nf-core
+version("4.0.2", uri="docker://quay.io/biocontainers/nf-core:4.0.2--pyhdfd78af_0")

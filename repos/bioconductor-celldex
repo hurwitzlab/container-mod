@@ -1,0 +1,3 @@
+Description: Provides a collection of reference expression datasets with curated cell type labels, for use in procedures like automated annotation of single-cell data or deconvolution of bulk RNA-seq.
+Home Page: https://github.com/SingleR-inc/celldex
+Programs: R,Rscript

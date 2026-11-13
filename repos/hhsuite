@@ -1,0 +1,3 @@
+Description: HH-suite3 provides fast remote protein homology detection and deep protein annotation using profile hidden Markov models (HHblits, HHsearch, HHalign).
+Home Page: https://github.com/soedinglab/hh-suite
+Programs: a3m_database_extract,a3m_database_filter,a3m_database_reduce,a3m_extract,a3m_reduce,cstranslate,ffindex_apply,ffindex_build,ffindex_from_fasta,ffindex_from_fasta_with_split,ffindex_get,ffindex_modify,ffindex_order,ffindex_reduce,ffindex_unpack,hhalign,hhalign_omp,hhblits,hhblits_ca3m,hhblits_omp,hhconsensus,hhfilter,hhmake,hhsearch,hhsearch_omp,reformat.pl

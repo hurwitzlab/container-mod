@@ -1,0 +1,4 @@
+Description: DeepMicroClass, a deep learning based method that classifies metagenomic contigs into five sequence classes, e.g., viruses infecting prokaryotic or eukaryotic hosts, eukaryotic or prokaryotic chromosomes.
+Home Page: https://github.com/chengsly/DeepMicroClass
+Programs: DeepMicroClass
+version("1.0.3", uri="docker://quay.io/biocontainers/deepmicroclass:1.0.3--pyhdfd78af_1")

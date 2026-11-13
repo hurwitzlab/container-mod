@@ -1,0 +1,3 @@
+Description: identify viral sequences from metagenomic data using deep learning (CNN).
+Home Page: https://github.com/jessieren/DeepVirFinder
+Programs: python /opt/DeepVirFinder/dvf.py

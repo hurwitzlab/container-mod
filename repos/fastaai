@@ -1,0 +1,3 @@
+Description: FastAAI is a rapid estimator for amino acid identity (AAI) between genomes, supporting database building, merging, and querying workflows.
+Home Page: https://github.com/cruizperez/FastAAI
+Programs: fastaai

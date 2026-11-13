@@ -1,0 +1,4 @@
+Description: Bakta is a tool for the rapid & standardized annotation of bacterial genomes and plasmids from both isolates and MAGs.
+Home Page: https://github.com/oschwengers/bakta
+Programs: bakta,bakta_db,bakta_proteins,bakta_plot,bakta_io
+version("1.12.1", uri="docker://quay.io/biocontainers/bakta:1.12.1--pyhdfd78af_0")

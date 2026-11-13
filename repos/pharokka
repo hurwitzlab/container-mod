@@ -1,0 +1,4 @@
+Description: pharokka is a rapid standardised annotation tool for bacteriophage genomes and metagenomes.
+Home Page: https://github.com/gbouras13/pharokka
+Programs: pharokka
+version("1.9.1", uri="docker://quay.io/biocontainers/pharokka:1.9.1--pyhdfd78af_0")

@@ -1,0 +1,3 @@
+Description: classification of (metagenomic) assembly sequences as
+Home Page: https://github.com/Shamir-Lab/PlasClass
+Programs: classify_fasta.py

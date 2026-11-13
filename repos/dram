@@ -1,0 +1,4 @@
+Description: DRAM (Distilled and Refined Annotation of Metabolism) is a tool for annotating metagenomic assembled genomes and VirSorter identified viral contigs.
+Home Page: https://github.com/WrightonLabCSU/DRAM
+Programs: DRAM.py,DRAM-setup.py,DRAM-v.py
+version("1.5.0", uri="docker://quay.io/biocontainers/dram:1.5.0--pyhdfd78af_0")

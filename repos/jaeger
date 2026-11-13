@@ -1,0 +1,3 @@
+Description: Jaeger is a tool that utilizes homology-free machine learning to identify phage genome sequences that are hidden within metagenomes. It is capable of detecting both phages and prophages within metagenomic assemblies
+Home Page: https://github.com/Yasas1994/Jaeger
+Programs: jaeger

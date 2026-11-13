@@ -1,0 +1,6 @@
+Description: geNomad -- Identification of mobile genetic elements
+Home Page: https://github.com/apcamargo/genomad
+Programs: genomad
+version("1.13.0", uri="docker://quay.io/biocontainers/genomad:1.13.0--pyhdfd78af_0")
+version("1.8.1", uri="docker://quay.io/biocontainers/genomad:1.8.1--pyhdfd78af_0")
+version("1.12.0", uri="docker://quay.io/biocontainers/genomad:1.12.0--pyhdfd78af_0")

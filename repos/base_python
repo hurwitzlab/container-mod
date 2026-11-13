@@ -1,0 +1,3 @@
+Description: General-purpose Python data science: numpy, pandas, scipy, matplotlib, seaborn, scikit-learn, statsmodels, polars, pyarrow, ipython and more
+Home Page: https://github.com/hurwitzlab/containerPy
+Programs: python,python3,f2py,ipython,ipython3,numpy-config,tqdm,base_python

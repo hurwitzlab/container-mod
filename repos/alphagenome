@@ -1,0 +1,3 @@
+Description: AlphaGenome offers multimodal predictions, encompassing diverse functional outputs such as gene expression, splicing patterns, chromatin features, and contact maps.
+Home Page: https://github.com/google-deepmind/alphagenome
+Programs: python,python3

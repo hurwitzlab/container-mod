@@ -1,0 +1,3 @@
+Description: NanoSim is a fast and scalable read simulator that captures the characteristics of Oxford Nanopore sequencing data.
+Home Page: https://github.com/BirolLab/NanoSim
+Programs: read_analysis.py,simulator.py

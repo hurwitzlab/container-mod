@@ -1,0 +1,4 @@
+Description: automated
+Home Page: https://github.com/AnantharamanLab/VIBRANT
+Programs: VIBRANT_run.py
+version("1.2.1", uri="docker://quay.io/biocontainers/vibrant:1.2.1--hdfd78af_4")

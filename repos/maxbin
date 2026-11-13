@@ -1,0 +1,3 @@
+Description: MaxBin is a software for binning assembled metagenomic sequences based on an Expectation-Maximization algorithm.
+Home Page: https://sourceforge.net/projects/maxbin/
+Programs: run_MaxBin.pl

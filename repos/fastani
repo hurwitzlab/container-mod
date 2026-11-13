@@ -2,5 +2,6 @@ Description: FastANI is developed for fast alignment-free computation of whole-g
 Home Page: https://github.com/ParBLiSS/FastANI
 Programs: fastANI
 
+version("1.34", uri="docker://quay.io/biocontainers/fastani:1.34--h4dfc31f_0")
 version("1.33", uri="docker://quay.io/biocontainers/fastani:1.33--h0fdf51a_0")
 version("1.32", uri="docker://quay.io/biocontainers/fastani:1.32--he1c1bb9_0")

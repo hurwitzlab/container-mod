@@ -1,0 +1,3 @@
+Description: VirulenceFinder identifies virulence genes in total or partial sequenced isolates of bacteria.
+Home Page: https://bitbucket.org/genomicepidemiology/virulencefinder
+Programs: download-virulence-db.sh,python,python3

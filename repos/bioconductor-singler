@@ -1,0 +1,3 @@
+Description: Performs unbiased cell type recognition from single-cell RNA sequencing data, by leveraging reference transcriptomic datasets of pure cell types to infer the cell of origin of each single cell independently.
+Home Page: https://bioconductor.org/packages/release/bioc/html/SingleR.html
+Programs: R,Rscript

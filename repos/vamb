@@ -1,0 +1,3 @@
+Description: VAMB bins metagenomic contigs using a variational autoencoder on composition and coverage.
+Home Page: https://github.com/RasmussenLab/vamb
+Programs: vamb

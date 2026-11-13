@@ -1,0 +1,3 @@
+Description: SemiBin is a metagenomic binning tool that uses siamese neural networks with must-link and cannot-link constraints.
+Home Page: https://github.com/BigDataBiology/SemiBin
+Programs: SemiBin2

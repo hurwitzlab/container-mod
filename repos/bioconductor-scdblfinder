@@ -1,0 +1,3 @@
+Description: The scDblFinder package gathers various methods for the detection and handling of doublets/multiplets in single-cell sequencing data
+Home Page: https://github.com/plger/scDblFinder
+Programs: R,Rscript

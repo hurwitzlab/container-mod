@@ -1,0 +1,3 @@
+Description: Snakemake pipeline to rapidly quantify taxa from all domains of
+Home Page: https://github.com/bhattlab/phanta
+Programs: python3 /opt/phanta/run_phanta.py
