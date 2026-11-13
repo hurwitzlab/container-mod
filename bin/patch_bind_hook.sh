@@ -23,7 +23,7 @@ if [[ "${1:-}" == "--dry-run" ]]; then
 fi
 
 MOD_DIR="${1:-/usr/local/usrapps/brc/brc_modules/modules}"
-BIND_CONFIG_FILE="/usr/local/usrapps/brc/brc_modules/modules.config"
+BIND_CONFIG_FILE="/usr/local/usrapps/brc/env/modules.config"   # shared by all BRC module trees
 SOURCE_LINE="source \"${BIND_CONFIG_FILE}\""
 MARKER='#-- Optional bind path (set BIND_PATH in your profile to enable)'
 
