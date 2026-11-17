@@ -1,3 +1,4 @@
 Description: VirSorter2 is a DNA and RNA virus identification tool that applies a multi-classifier, expert-guided approach to detect diverse viral genomes in assembled contigs.
 Home Page: https://github.com/jiarong/VirSorter2
 Programs: virsorter
+version("2.2.4", uri="docker://quay.io/biocontainers/virsorter:2.2.4--pyhdfd78af_2")

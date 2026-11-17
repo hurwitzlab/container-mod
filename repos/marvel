@@ -1,3 +1,4 @@
 Description: MARVEL (Metagenomic Analyses and Retrieval of Viral Elements) predicts double-stranded DNA phage sequences in metagenomic bins.
 Home Page: https://github.com/quadram-institute-bioscience/marvel
 Programs: marvel,marvel_prokka,download_and_set_models.py
+version("0.2", uri="docker://quay.io/biocontainers/marvel:0.2--py39hdfd78af_4")

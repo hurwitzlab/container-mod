@@ -1,3 +1,4 @@
 Description: iPHoP (integrated Phage HOst Prediction) predicts the host genus of uncultivated phage genomes.
 Home Page: https://bitbucket.org/srouxjgi/iphop/
 Programs: iphop
+version("1.4.2", uri="docker://quay.io/biocontainers/iphop:1.4.2--pyhdfd78af_0")

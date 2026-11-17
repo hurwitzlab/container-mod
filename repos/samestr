@@ -1,3 +1,4 @@
 Description: SameStr identifies shared strains between pairs of metagenomic samples based on the similarity of their SNV profiles.
 Home Page: https://github.com/danielpodlesny/samestr
 Programs: samestr
+version("1.2025.111", uri="docker://quay.io/biocontainers/samestr:1.2025.111--pyhdfd78af_0")

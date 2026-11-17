@@ -1,3 +1,4 @@
 Description: Sickle performs windowed adaptive quality trimming of FASTQ files.
 Home Page: https://github.com/najoshi/sickle
 Programs: sickle
+version("1.33", uri="docker://quay.io/biocontainers/sickle-trim:1.33--h577a1d6_12")

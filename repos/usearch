@@ -1,3 +1,4 @@
 Description: USEARCH is a sequence analysis tool for search, clustering, OTU/ZOTU denoising (UNOISE) and amplicon analysis.
 Home Page: https://www.drive5.com/usearch/
 Programs: usearch
+version("12.0_beta", uri="docker://quay.io/biocontainers/usearch:12.0_beta--h9ee0642_2")

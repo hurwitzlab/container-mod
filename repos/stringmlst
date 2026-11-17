@@ -1,3 +1,4 @@
 Description: stringMLST performs k-mer based multi-locus sequence typing (MLST) directly from genome sequencing reads.
 Home Page: https://github.com/jordanlab/stringMLST
 Programs: stringMLST.py
+version("0.6.3", uri="docker://quay.io/biocontainers/stringmlst:0.6.3--py_0")
